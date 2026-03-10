@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assetes/css/bootstrap.min.css">
+    <title>Bienvenido a bootstrap</title>
+</head>
+
+<body>
+    <!-- inicia navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark"">
+         <div class=" container-fluid">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Politica</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Proyectos
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Web</a></li>
+                        <li><a class="dropdown-item" href="#">Arquitectura de software</a></li>
+                        <li><a class="dropdown-item" href="#">UX/UI</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <!-- termina navbar-->
+    <!-- inicia el hero-->
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="row">
+                <h1 class="text-center">Bienvenidos</h1>
+            </div>
+            <div class="row">
+                <p class="text-secondary text-center">Esto es una practica de maquetado</p>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+                    <button class="btn btn-primary">Contactanos</button>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6 bg-success">2</div>
+    </div>
+    <!-- termina el hero-->
+     <!---inician carts-->
+    <div class="container">
+        <div clas="row mt-5">
+            <div class="col-sm-12 col-md-4 col-lg-4 ">
+                <div class="card" style="width: 25rem;">
+                    <img src="img/ajolote.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">blog</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 mt-4">
+                <div class="card" style="width: 25rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="#" class="btn btn-primary">ir al blog</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 mt-4 ">
+                <div class="card" style="width: 25rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!---terminan cards-->
+<div class="row mt-3">
+    <div class="col">
+        <form action="<?php $_SERVER['PHP_SELF'];?>" method="post">
+           <div class="row mt2">
+              <div class="col-md-6 col-lg-6 col-sm-6">
+                <input type="text" name="Email" id="email" placeholder="digita tu email class">
+
+              </div>
+              <div class="col-md-6 col-lg6 col-sm-6">
+                <input type="submit" value="Registrar" class="btn btn">
+              </div>
+           </div>
+        </form>
+    </div>
+</div>
+
+    <script src="assetes/js/bootstrap.min.js"></script>
+    <script src="assetes/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
